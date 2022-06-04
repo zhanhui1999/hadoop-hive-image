@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>dfs.namenode.http-address</name>
+        <value>hadoop:9870</value>
+    </property>
+    <property>
+        <name>dfs.namenode.secondary.http-address</name>
+        <value>hadoop:9868</value>
+    </property>
+
+    <property>
+        <name>dfs.replication</name>
+        <value>2</value>
+    </property>
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>/opt/module/hadoop-3.2.0/data/namenode</value>
+    </property>
+    <property>
+        <name>dfs.namenode.data.dir</name>
+        <value>/opt/module/hadoop-3.2.0/data/datanode</value>
+    </property>
+</configuration>
