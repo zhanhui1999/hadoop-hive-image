@@ -4,3 +4,17 @@
 # 应用的下载
   应用包括Hadoop、Hive、JDK、mysql驱动。下载下来解压到项目的根目录。
   链接: https://pan.baidu.com/s/165vW7n4-35yeRAMyf96qiw 提取码: rqd7 
+
+# 构建镜像
+  `[sudo] docker build -t {image_name}:{tags_name} ./`
+ 
+ # 运行容器
+  `sudo docker run -itd \
+  -p 9870:9870 \
+  -p 8088:8088 \
+  -p 9868:9868 \
+  -p 10000:10000 \
+  --hostname hadoop \
+  --name hadoop_gs \
+  {image}`
+  hostname要指定为Dockerfile中指明的主机名字。默认是hadoop
