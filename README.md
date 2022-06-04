@@ -3,3 +3,4 @@
 
 # 应用的下载
   应用包括Hadoop、Hive、JDK、mysql驱动。下载下来解压到项目的根目录。
+  链接: https://pan.baidu.com/s/165vW7n4-35yeRAMyf96qiw 提取码: rqd7 
